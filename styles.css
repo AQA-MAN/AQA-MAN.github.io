@@ -171,6 +171,28 @@ img{ max-width:100%; display:block; }
   padding:36px 0;
   border-bottom:1px solid var(--line);
   display:flex;
+  gap:28px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.monogram{
+  flex-shrink:0;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  background:var(--accent-tint);
+  border:1px solid var(--accent);
+  color:var(--accent-deep);
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:19px;
+  letter-spacing:0.02em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.about-details{
+  display:flex;
   gap:36px;
   flex-wrap:wrap;
   align-items:baseline;

@@ -166,6 +166,32 @@ img{ max-width:100%; display:block; }
 }
 .hero .chips-row{ display:flex; gap:8px; flex-wrap:wrap; }
 
+.hero-cta{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-top:28px;
+}
+.btn-primary{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:var(--accent-deep);
+  color:#fff;
+  font-family:var(--font-mono);
+  font-size:13px;
+  letter-spacing:0.03em;
+  text-transform:uppercase;
+  padding:11px 20px;
+  border-radius:var(--radius);
+  transition:background .15s ease;
+}
+.btn-primary:hover{
+  background:var(--accent);
+  text-decoration:none;
+}
+
 /* ---------- about strip ---------- */
 .about-strip{
   padding:36px 0;
